@@ -1,0 +1,14 @@
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\bin\Release\net8.0\GREP.exe
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\bin\Release\net8.0\GREP.deps.json
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\bin\Release\net8.0\GREP.runtimeconfig.json
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\bin\Release\net8.0\GREP.dll
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\bin\Release\net8.0\GREP.pdb
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\obj\Release\net8.0\GREP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\obj\Release\net8.0\GREP.AssemblyInfoInputs.cache
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\obj\Release\net8.0\GREP.AssemblyInfo.cs
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\obj\Release\net8.0\GREP.csproj.CoreCompileInputs.cache
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\obj\Release\net8.0\GREP.dll
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\obj\Release\net8.0\refint\GREP.dll
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\obj\Release\net8.0\GREP.pdb
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\obj\Release\net8.0\GREP.genruntimeconfig.cache
+C:\Users\khati\Desktop\GREP PROJECT\GREP\GREP\obj\Release\net8.0\ref\GREP.dll
