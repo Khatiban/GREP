@@ -25,7 +25,8 @@ A command-line utility built with C# and .NET that mimics the functionality of U
 ### Application Flow
 
 ```plaintext
-Main() → ParseArguments() → PerformSearchAsync() → DisplayResults() → RetryPrompt()```
+Main() → ParseArguments() → PerformSearchAsync() → DisplayResults() → RetryPrompt()
+```
 
 # Code Structure Overview
 
