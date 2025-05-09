@@ -4,10 +4,10 @@ A command-line utility built with C# and .NET that mimics the functionality of U
 
 ## 📚 Course Project
 
-- **Student Name:** [Insert Your Name]  
-- **Course:** [Insert Course Name, e.g., Advanced C# Programming]  
-- **Professor:** [Insert Professor’s Name]  
-- **Date:** [Insert Date]
+- **Student Name:** Ehsan Khatiban
+- **Course:** Parallel and Ansynchronous Programming with .NET
+- **Professor:** Dietrich Birngruber
+- **Date:** 09.05.25
 
 ---
 
@@ -25,4 +25,55 @@ A command-line utility built with C# and .NET that mimics the functionality of U
 ### Application Flow
 
 ```plaintext
-Main() → ParseArguments() → PerformSearchAsync() → DisplayResults() → RetryPrompt()
+Main() → ParseArguments() → PerformSearchAsync() → DisplayResults() → RetryPrompt()```
+
+# Code Structure Overview
+
+- **Arguments** are parsed to determine search term, path, pattern, and flags.  
+- `PerformSearchAsync` uses `Directory.GetFiles` and `File.ReadLines` to locate and parse files.  
+- Search supports cancellation via `CancellationTokenSource`.  
+- If no arguments are passed, it enters **interactive mode** for user input.  
+
+---
+
+## 🛠️ Key Code Snippets
+
+### Argument Parsing  
+```csharp
+ParseArguments(args, ref searchTerm, ref filePattern, ...);
+```  
+- Supports: `-d:path`, `-r`, `-t:N`  
+
+### Async Search Logic  
+```csharp
+await PerformSearchAsync(...);
+```  
+- Efficient file traversal and line scanning.  
+- Checks for cancellation requests during the operation.  
+
+### Interactive Mode  
+```csharp
+GetUserInput(...); // Prompts if no args are passed
+```  
+
+---
+
+## 💻 Example Usage
+
+### Command-Line Mode  
+```bash
+GREP.exe "hello world" -r -d:C:\Projects -t:50
+```  
+
+### Interactive Mode  
+```plaintext
+Enter search term: "error"
+File pattern: *.log
+Search recursively? (y/n): y
+```  
+
+### Sample Output  
+```plaintext
+C:\Projects\log1.log: [ERROR] Something bad happened  
+C:\Projects\log2.log: [ERROR] Unable to connect  
+```  
